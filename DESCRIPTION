@@ -1,0 +1,15 @@
+Package: ExtractAnonymizeChop
+Type: Package
+Title: Extract text from documents, anonymize, 
+    and chop off repeated content. 
+Version: 0.1.0
+Author: Karel A. Kroeze <k.a.kroeze@utwente.nl>
+Maintainer: Karel A. Kroeze <k.a.kroeze@utwente.nl>
+Description: Provides three sets of functions for extracting text from pdf, 
+    docx and other popular formats; anonymize and remove common tokens from 
+    text; and extract unique content from a set of incremental iterations of
+    the same document.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+SystemRequirements: Python 3.7+
