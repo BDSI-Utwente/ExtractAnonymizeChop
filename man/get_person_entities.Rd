@@ -16,3 +16,7 @@ list of named entities recognized as persons
 Uses the default english model (en_core_web_md) available in spacy to extract
 named entities.
 }
+\examples{
+
+get_person_entities("John, Jane and Peter walked down the road to Mr. Blueberry")
+}

@@ -21,3 +21,9 @@ anonymized text
 \description{
 Remove or replace regular expression patterns
 }
+\examples{
+# a simple email and student/employee/guest id pattern
+anonymize_patterns("my email address is k.a.kroeze@utwente.nl, my employee number is m1234567",
+  list("[a-z0-9\\\\-_\\\\.]+@[a-z0-9\\\\-_\\\\.]+\\\\.[a-z]{2,}", "[msx][0-9]{7}"),
+  list("EMAIL", "ID_NUMBER"))
+}

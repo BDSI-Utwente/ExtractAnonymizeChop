@@ -17,5 +17,5 @@ URL: https://github.com/BDSI-Utwente/ExtractAnonymizeComplement
 BugReports: https://github.com/BDSI-Utwente/ExtractAnonymizeComplement/issues
 Imports: 
     reticulate
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Roxygen: list(markdown = TRUE)

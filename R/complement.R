@@ -11,10 +11,10 @@
 #' @param b previous version of text b
 #'
 #' @export
-complement <- function(a, b) {
+extract_complement <- function(a, b) {
   if(!is.character(a) | !is.character(b)) rlang::abort("both a and b must be atomic character vectors")
   complement$complement(
-    a = a,
-    b = b
+    a = b,
+    b = a
   )
 }
