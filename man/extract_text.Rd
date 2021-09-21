@@ -7,9 +7,9 @@
 extract_text(path, page = -1L)
 }
 \arguments{
-\item{path}{\link{string} path to the document}
+\item{path}{\link{character} path to the document}
 
-\item{page}{\link{number} for pdf documents, extracts the given page only. Will
+\item{page}{\link{numeric} for pdf documents, extracts the given page only. Will
 attempt to automatically convert to pdf for other formats.}
 }
 \description{

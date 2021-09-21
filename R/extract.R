@@ -4,8 +4,8 @@
 #' powerpoint, excel, open office, etc. Uses the `tika`, `pymupdf` and `docx2pdf`
 #' python libraries to obtain a reasonably uniform output.
 #'
-#' @param path [string] path to the document
-#' @param page [number] for pdf documents, extracts the given page only. Will
+#' @param path [character] path to the document
+#' @param page [numeric] for pdf documents, extracts the given page only. Will
 #' attempt to automatically convert to pdf for other formats.
 #'
 #' @export
